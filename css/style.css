@@ -523,7 +523,6 @@ footer .copyright {
 
 .hamberger {
     position: absolute;
-    top: 40px;
     right: 40px;
     z-index: 11;
     background: none;
@@ -541,18 +540,18 @@ footer .copyright {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 25%;
     height: 100%;
     z-index: 1001;
     background: var(--light);
     padding: 3rem;
     padding-top: 5rem;
-    transform: translateX(-100%);
+    transform: translateX(400%);
     transition: all .5s ease-in-out;
 }
 
 .open {
-    transform: translateX(0);
+    transform: translateX(300%);
 }
 
 .times {
@@ -570,6 +569,8 @@ footer .copyright {
 .mobileNav ul li a {
     color: var(--secondary);
     text-decoration: 2rem;
+    font-size: 20px;
+    
 }
 
 @media (max-width: 1024px) {
