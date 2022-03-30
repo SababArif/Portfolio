@@ -21,6 +21,7 @@ html {
 
 * {
     padding: 0;
+    padding-bottom: 1rem;
     margin: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -126,8 +127,13 @@ section {
     padding: 6rem 0;
 }
 
+section.about{
+    padding-top: 26px;
+    padding-bottom: 0px;
+}
+
 section.about .aboutMeImg {
-    height: 450px;
+    height: 700px;
 }
 
 section.about h1 {
@@ -604,6 +610,7 @@ footer .copyright {
 
     section.about .aboutMeImg {
         height: 371px;
+        margin-left: 1.3rem;
     }
 
     section.services .cardWrapper {
