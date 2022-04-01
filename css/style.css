@@ -574,9 +574,15 @@ footer .copyright {
 
 .mobileNav ul li a {
     color: var(--secondary);
-    text-decoration: 2rem;
-    font-size: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
     
+} 
+
+.mobileNav ul li a:hover {
+    color: var(--primary);
 }
 
 @media (max-width: 1024px) {

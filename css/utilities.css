@@ -47,6 +47,25 @@
     color: black;
 }
 
+.btn-simple{
+    padding:0.8rem 6rem;
+    background: transparent;
+    color: black;
+    border: none;
+    text-transform: none;
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight:normal;
+    
+}
+
+.btn-simple:hover{
+    background: transparent;
+    color: var(--primary);
+    text-transform: none;
+
+}
+
 .flex-1{
     flex: 1;
 }
