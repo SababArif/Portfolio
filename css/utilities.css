@@ -48,13 +48,11 @@
 }
 
 .btn-simple{
-    padding:0.8rem 6rem;
+    padding-top: 0px;
     background: transparent;
-    color: black;
+    color: var(--ternary);
     border: none;
     text-transform: none;
-    font-style: normal;
-    font-size: 1.4rem;
     font-weight:normal;
     
 }
